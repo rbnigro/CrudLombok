@@ -22,5 +22,4 @@ public class UsuarioRequestDTO {
 	private String email;
 	
 	private EnderecoRequestDTO endereco;
-
 }
