@@ -10,7 +10,6 @@ import com.act.bradesco.users.entity.UsuarioEntity;
 
 import java.time.LocalDateTime;
 import java.util.Random;
-import java.util.UUID;
 
 @Component
 @RequiredArgsConstructor
