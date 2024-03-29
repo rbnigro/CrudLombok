@@ -16,11 +16,9 @@ import java.util.Random;
 public class UsuarioConverter {
 
     public UsuarioEntity paraUsuarioEntity(UsuarioRequestDTO usuarioRequestDTO) {
-    	
-        return UsuarioEntity.builder()
+    	return UsuarioEntity.builder()
                 .id(new Random().nextLong())
                 .nome(usuarioRequestDTO.getNome())
-         //       .documento(usuarioRequestDTO.getDocumento())
                 .email(usuarioRequestDTO.getEmail())
                 .dataCadastro(LocalDateTime.now())
                 .build();

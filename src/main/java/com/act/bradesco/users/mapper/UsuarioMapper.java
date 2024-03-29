@@ -13,8 +13,6 @@ public interface UsuarioMapper {
     @Mapping(target = "id", source = "usuario.id")
     @Mapping(target = "nome", source = "usuario.nome")
     @Mapping(target = "email", source = "usuario.email")
-//    @Mapping(target = "bairro", source = "usuario.bairro")
-  //  @Mapping(target = "documento", source = "usuario.documento")
     @Mapping(target = "endereco", source = "enderecoEntity")
     UsuarioResponseDTO paraUsuarioResponseDTO(UsuarioEntity usuario, EnderecoEntity enderecoEntity);
 
