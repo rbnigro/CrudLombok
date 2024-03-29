@@ -1,3 +1,6 @@
+Necessária a intalação do Lombok
+--------------------------------
+
 NoSQL
 Banco orientado a documentos
 	Documentos: BSON = Binary JSON
