@@ -10,6 +10,8 @@ Mongo Express
 RoboMongo
 MongoDB Compass - Interface Gráfica
 
+No MongoDB as Collections são os objetos equivalentes às tabelas nos bancos relacionais
+
 Porta padrão: mongodb://localhost:27017
 
 Usar versão free - Community

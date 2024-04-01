@@ -14,8 +14,8 @@ import lombok.Setter;
 @Builder
 @EqualsAndHashCode
 public class EnderecoRequestDTO {
-	private Long id;
-	private Long usuarioId;
+	private String id;
+	private String usuarioId;
 	private String logradouro;
 	private String numero;
 	private String complemento;

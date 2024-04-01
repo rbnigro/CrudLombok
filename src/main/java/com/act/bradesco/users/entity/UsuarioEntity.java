@@ -16,11 +16,11 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-@Document(collection = "usuario_entity")
+@Document(value = "usuario_entity")
 public class UsuarioEntity {
 
 	@Id
-	private Long id;
+	private String id;
 	private String nome;
 	private String email;
 	private LocalDateTime dataCadastro;

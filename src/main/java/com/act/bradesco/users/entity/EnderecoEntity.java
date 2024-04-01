@@ -14,12 +14,12 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-@Document(collection = "endereco_entity")
+@Document(value = "endereco_entity")
 public class EnderecoEntity {
 	
 	@Id
-	private Long id;
-	private Long usuarioId;
+	private String id;
+	private String usuarioId;
 	private String logradouro;
 	private String numero;
 	private String complemento;
